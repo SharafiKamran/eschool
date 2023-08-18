@@ -1,0 +1,285 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	color: black;
+}
+
+.container {
+	margin: 0 auto;
+	background-color: rgb(240,255,240);
+	width: 1240px;
+	height: 576px;
+}
+.head{
+	display: flex;
+	flex-direction: row;
+
+}
+.logo img{
+	width: 72px;
+	height: 63.07px;
+	margin-left: 120px;
+	margin-top: 29px;
+	}
+.text1{
+	color: rgb(86, 84, 140);
+	margin-top: 40px;
+	font-family: Rubik;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 29px;
+	letter-spacing: .05em;
+	text-align: left;
+
+}
+.menu{
+	margin-left: 400px;
+}
+.menu ul {
+	margin-top: 20px;
+   list-style-type: none;
+   color: black;
+   font-weight: bold;
+   overflow: hidden;
+ 
+}
+
+.menu li {
+  float: left;
+  
+  padding: 14px 20px;
+  
+}
+
+.menu li a {
+  	display: block;
+  	color: white;
+ 	
+  	text-decoration: none;
+}
+
+.menu li:hover {
+  background-color: rgb(114, 120, 126);
+  transition: 0.5s;
+  border-radius: 3px;
+}
+.btn{
+	background: #21B573;
+	text-align: center;
+	padding: 12px 28px 12px 28px;
+	border-radius: 33px;
+	gap: 10px;
+	width: 50px;
+	margin-top: 24px;
+	margin-bottom: 50px;
+	
+	color: white;
+	font-weight: bold;
+	margin-left: 20px;
+	
+}
+
+.div{
+	display: flex;
+	flex-direction: row;
+	margin-left: 120px;
+	margin-right: 120px;
+	margin-top: 80px;
+}
+.txt2{
+	color: rgb(523, 81, 26);
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.txt3{
+	font-size: 50px;
+	font-weight: 900;
+}
+.txt{
+	color: #21B573;
+}
+.txt4{
+	margin-top: 20px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 35px;
+}
+.btn1{
+	background: #21B573;
+	text-align: center;
+	padding: 12px 28px 12px 28px;
+	border-radius: 33px;
+	gap: 10px;
+	width: 100px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	
+	color: white;
+	font-weight: bold;
+	
+	
+}
+.div1{
+	width: 500px;
+
+}
+.div1 img{
+	width: 500px;
+	height: 346px;
+	margin-top: -50px;
+	margin-left: 24px;
+
+}
+.Con{
+	margin-left: 0px;
+	width: 1240px;
+}
+.container2{
+	display: flex;
+	flex-direction: row;
+	margin: 50px 120px;
+	justify-content: space-between;
+	
+
+}
+.div2{
+	width: 200px;
+	height: 200px;
+	background: rgb(240,255,240);
+	box-shadow: 0px 10px 10px 10px  rgb(205, 205, 205);
+
+}
+.div2 img{
+	width: 66px;
+	height: 85px;
+	margin: 30px 67px 10px 67px;
+	border-radius: 2px;
+	box-shadow: 10px 10px 8px rgb(114, 120, 126);
+}
+.txt5{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+.txt6{
+	text-align: center;
+	font-size: 10px;
+	color: rgb(114, 120, 126);
+}
+.txt7{
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	margin: 100px;
+}
+.div0{
+	display: flex;
+	flex-direction: row;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 80px;
+	justify-content: space-between;
+}
+.div3{
+	width: 335px;
+	height: 470px;
+	padding: 20px;
+	box-shadow:  0 0 5px 5px rgb(212, 212, 212);
+	border-radius: 20px;
+}
+.div3 .img{
+
+}
+.div3 img{
+	width: 331px;
+	height: 234px;
+}
+.txt8{
+	font-size: 30px;
+	font-weight: bold;
+	margin: 10px 0px;
+	letter-spacing: 1px;
+}
+.txt9{
+	color: rgb(114, 120, 126);
+	font-size: 20px;
+	letter-spacing: 1px;
+
+	margin-bottom: 10px;
+}
+.btn3{
+	background: #21B573;
+	text-align: center;
+	padding: 12px 28px 12px 28px;
+	border-radius: 33px;
+	gap: 10px;
+	width: 120px;
+	height: ;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-size: 20px;
+	color: white;
+	
+}
+.date{
+	display: flex;
+	justify-content: space-between;
+	font-size: 18px;
+	font-weight: bolder;
+	color: rgb(114, 120, 126) ;
+}
+.date img{
+	width: 24px;
+	height: 24px;
+
+}
+.container3{
+	margin-left: 353px ;
+	display: flex;
+}
+.container3 img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+
+}
+.txt10{
+	width: 583px;
+	margin-left: 30px;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+
+}
+
+.footer{
+	width:1240px;
+	height: 369px;
+	margin-top: 100px;
+	background: black;
+	color: white;
+
+}
+.footer-div{
+	margin: 0px 120px 50px 120px;
+	display: flex;
+	justify-content: space-between;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+}
+.div4{
+	margin-top: 100px;
+	width: 400px;
+}
+.div5{
+	margin-top: 100px;
+	width: 200px;
+}
+.footer-div span{
+	font-size: 25px;
+	font-weight: 700;
+
+}
